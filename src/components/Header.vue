@@ -40,8 +40,9 @@
 
   .nav-cont{
      display: flex;
+     flex-direction: column;
      justify-content: space-between;
-     align-items: center;
+     align-items: start;
   }
 
   ul,li{
@@ -50,16 +51,94 @@
   }
 
    a{
-    padding: 15px;
-    font-size: 18px;
-    text-decoration: none;
-    color: white;
+        padding: 15px;
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+   }
+
+    a:hover{
+          background-color: white;
+          color: rgb(241, 69, 241);
+          width: full;
+    }
+
+  @media screen and (max-width: 576px){
+    .nav-cont{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+       }
+
+        ul,li{
+            list-style-type: none;
+            display: flex;
+        }
+
+        a{
+            padding: 15px;
+            font-size: 18px;
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover{
+            background-color: white;
+            color: rgb(241, 69, 241);
+            width: full;
+        }
+      
   }
 
-  a:hover{
-    background-color: white;
-    color: rgb(241, 69, 241);
-    width: full;
+  @media screen and (min-width: 992px){
+       .nav-cont{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+       }
+
+        ul,li{
+            list-style-type: none;
+            display: flex;
+        }
+
+        a{
+            padding: 15px;
+            font-size: 18px;
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover{
+            background-color: white;
+            color: rgb(241, 69, 241);
+            width: full;
+        }
   }
 
+  @media screen and (min-width: 1024px){
+    .nav-cont{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+       }
+
+        ul,li{
+            list-style-type: none;
+            display: flex;
+        }
+
+        a{
+            padding: 15px;
+            font-size: 18px;
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover{
+            background-color: white;
+            color: rgb(241, 69, 241);
+            width: full;
+        }
+  }
 </style>

@@ -27,3 +27,6 @@ npm run dev
 ```sh
 npm run build
 ```
+# Responsive mobile view menu
+  this project give clear knowledge on how to build your mobile view site from the scratch with ease and mainly for the begginners as this help to step up there programming journey 
+  
